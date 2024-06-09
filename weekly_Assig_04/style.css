@@ -51,11 +51,17 @@ a:hover{
 .banner img{
     width: 100%;
     height: 100vh;
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .banner{
     position: sticky;
     top: 0px;
     z-index: -1;
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .banner-text{
     width: 100%;
@@ -81,6 +87,7 @@ a:hover{
     font-size: 1rem;
     border-radius: 5px;
     border: none;
+    z-index: 1;
 }
 .banner-text button:hover{
     background: none;
